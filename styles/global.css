@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+  @apply fill-current text-brand-black dark:text-brand-white transition duration-200;
+}
+
+.logo:hover {
+  fill: theme('colors.brand-main.500');
+}
+.navbar-blurred {
+  -webkit-backdrop-filter: saturate(190%) blur(5px);
+  backdrop-filter: saturate(190%) blur(5px);
+}
+
+.border-custom {
+  @apply border-brand-white border-opacity-20 hover:border-opacity-100 transition duration-200;
+}
+
+.image-wrapper {
+  letter-spacing: 0;
+  word-spacing: 0;
+  font-size: 0;
+}
