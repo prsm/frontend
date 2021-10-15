@@ -2,7 +2,7 @@ import { Typography } from '@pr1sm/refracted';
 import Event from './Event';
 
 export default function Events({ events }) {
-  events.sort((a, b) => new Date(b.start) - new Date(a.start));
+  events.sort((a, b) => new Date(b.start) - new Date(a.start)).reverse();
 
   return (
     <div>
