@@ -1,8 +1,8 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-  purge: ['./components/**/*.js'],
-  darkMode: 'class', // or 'media' or 'class'
+  purge: ['./components/**/*.js', './pages/**/*.js', './node_modules/@pr1sm/refracted/**/*.js'],
+  darkMode: 'class',
   theme: {
     fontFamily: {
       sans: ['Inter', 'ui-sans-serif', 'system-ui'],
