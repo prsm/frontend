@@ -11,6 +11,7 @@ export default function TextSection({}) {
         Wir sind ein lokaler Kulturverein, der sich in den folgenden Bereichen einsetzt: Gaming, Informatik,
         Online/Offline Events, Lanparties und andere Aktivitäten.
       </Typography>
+      <Typography variant="h5" component="h2">Was machen wir?</Typography>
       <Typography variant="body" component="p">
         Wir organisieren regelmässig eigene Events wie Turniere in verschiedenen Games oder sogar LAN Partys. Zudem
         treffen wir uns für gesellschaftliche Aktivitäten wie z. B. einen Pokerabend. Gelegentlich nehmen wir an
