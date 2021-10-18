@@ -55,6 +55,16 @@ export default {
       end: '2022-04-10T13:00:00',
       organiser: 'PR1SM',
     },
+    {
+      title: 'League of Legend World Championship Final @Pathe Basel',
+      location: 'Pathe Küchlin, Basel',
+      description:
+        'PR1SM is going to watch the world finals at Pathe in Basel. React to this event to join us there!',
+      href: 'https://discord.pr1sm.gg',
+      start: '2021-11-06T11:30:00',
+      end: '2021-11-06T18:00:00',
+      organiser: 'PR1SM',
+    },
   ],
   images: [
     {
