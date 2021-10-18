@@ -14,9 +14,9 @@ export default function TextSection({}) {
       <Typography variant="body" component="p">
         Wir organisieren regelmässig eigene Events wie Turniere in verschiedenen Games oder sogar LAN Partys. Zudem
         treffen wir uns für gesellschaftliche Aktivitäten wie z. B. einen Pokerabend. Gelegentlich nehmen wir an
-        verschiedenen Turnieren teil, um uns mit eigenen Teams mit Teams von anderen Organisationen zu messen. Bei der
-        Teilnahme an Wettkämpfen suchen wir die Herausforderung, behalten den Fokus allerdings immer auf Gemeinsamkeit
-        und Spass. Auch Spieler, die nicht auf einem professionellen Niveau spielen, sollen bei uns eine Plattform für
+        verschiedenen Turnieren teil, um uns mit Teams von anderen Organisationen zu messen. Bei der Teilnahme an
+        Wettkämpfen suchen wir die Herausforderung, behalten den Fokus allerdings immer auf Gemeinsamkeit und Spass.
+        Auch Spieler, die nicht auf einem professionellen Niveau spielen, sollen bei uns eine Plattform für
         wettkampfmässigen E-Sport finden.
       </Typography>
       <Typography variant="body" component="p">

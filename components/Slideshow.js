@@ -41,7 +41,7 @@ export const Slideshow = ({ images }) => {
   return (
     <div>
       <Typography text="Bildergalerie" variant="h6" component="h2" />
-      <Typography text="Bildergalerie" variant="body" component="p" />
+      <Typography text="Erhalte einen Einblick in unseren Verein" variant="body" component="p" />
       <div className="border border-custom rounded aspect-w-16 aspect-h-9 overflow-hidden">
         <AnimatePresence>
           <motion.div
@@ -50,7 +50,7 @@ export const Slideshow = ({ images }) => {
             initial="enter"
             animate="center"
             exit="exit"
-            className="image-wrapper"
+            className=""
             style=""
             key={images[page].src}
           >
@@ -58,9 +58,7 @@ export const Slideshow = ({ images }) => {
               src={images[page].src}
               alt={images[page].description}
               title={images[page].description}
-              width="100%"
-              height="56.25%"
-              layout="responsive"
+              layout="fill"
               objectFit="cover"
             />
           </motion.div>
