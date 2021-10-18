@@ -4,11 +4,12 @@ import Image from 'next/image';
 export default function Event({ title, description, location, href, start, end, organiser }) {
   const dateToStrippedString = (date) => {
     let dateString = new Date(date).toDateString();
-    return dateString.substring(dateString.indexOf(' '), dateString.length);
+    let dateTime = new Date(date).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+    return dateString.substring(dateString.indexOf(' '), dateString.length) + " " + dateTime;
   };
 
   const startDate = dateToStrippedString(start);
-  const endDate = dateToStrippedString(start);
+  const endDate = dateToStrippedString(end);
 
   return (
     <a
