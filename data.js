@@ -29,7 +29,7 @@ export default {
     {
       text: 'Discord',
       icon: '/socials/discord.svg',
-      href: '',
+      href: 'https://discord.pr1sm.gg',
     },
     {
       text: 'Statuten',
