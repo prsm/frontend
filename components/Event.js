@@ -1,15 +1,15 @@
 import { Typography } from '@pr1sm/refracted';
 import Image from 'next/image';
+import { useState } from 'react';
 
+const dateToStrippedString = (date) => {
+  let dateString = new Date(date).toDateString();
+  let dateTime = new Date(date).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  return dateString.substring(dateString.indexOf(' '), dateString.length) + ' ' + dateTime;
+};
 export default function Event({ title, description, location, href, start, end, organiser }) {
-  const dateToStrippedString = (date) => {
-    let dateString = new Date(date).toDateString();
-    let dateTime = new Date(date).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-    return dateString.substring(dateString.indexOf(' '), dateString.length) + " " + dateTime;
-  };
-
-  const startDate = dateToStrippedString(start);
-  const endDate = dateToStrippedString(end);
+  const [startDate, setStartDate] = useState(dateToStrippedString(start));
+  const [endDate, setEndDate] = useState(dateToStrippedString(end));
 
   return (
     <a

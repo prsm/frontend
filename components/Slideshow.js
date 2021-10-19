@@ -44,23 +44,8 @@ export const Slideshow = ({ images }) => {
       <Typography text="Erhalte einen Einblick in unseren Verein" variant="body" component="p" />
       <div className="border border-custom rounded aspect-w-16 aspect-h-9 overflow-hidden">
         <AnimatePresence>
-          <motion.div
-            custom={direction}
-            variants={variants}
-            initial="enter"
-            animate="center"
-            exit="exit"
-            className=""
-            style=""
-            key={images[page].src}
-          >
-            <Image
-              src={images[page].src}
-              alt={images[page].description}
-              title={images[page].description}
-              layout="fill"
-              objectFit="cover"
-            />
+          <motion.div custom={direction} variants={variants} initial="enter" animate="center" exit="exit" key={page}>
+            <Image src={images[page]} placeholder="blur" priority layout="responsive" />
           </motion.div>
         </AnimatePresence>
         <div className="z-10 flex flex-row items-center justify-between p-2">

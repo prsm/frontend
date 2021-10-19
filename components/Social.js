@@ -8,7 +8,7 @@ export default function Social({ name, logo, href }) {
         rel="noopener noreferrer"
         href={href}
       >
-        <Image src={logo} width="24" height="24" layout="intrinsic" />
+        <Image src={logo} quality="100" width="24" height="24" layout="intrinsic" />
       </a>
     </li>
   );

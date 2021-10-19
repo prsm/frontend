@@ -1,3 +1,22 @@
+import a from './public/images/a.jpeg';
+import b from './public/images/b.jpeg';
+import c from './public/images/c.jpeg';
+import d from './public/images/d.jpeg';
+import d2 from './public/images/d2.jpeg';
+import e from './public/images/e.jpeg';
+import f from './public/images/f.jpeg';
+import g from './public/images/g.jpeg';
+import h from './public/images/h.jpeg';
+import i from './public/images/i.jpeg';
+import j from './public/images/j.jpeg';
+import k from './public/images/k.jpeg';
+import l from './public/images/l.jpeg';
+import m from './public/images/m.jpeg';
+import n from './public/images/n.jpeg';
+import o from './public/images/o.jpeg';
+import p from './public/images/p.jpeg';
+import q from './public/images/q.jpeg';
+
 export default {
   videoId: 'wHw2NzauyuY',
   socials: [
@@ -58,82 +77,12 @@ export default {
     {
       title: 'League of Legend World Championship Final @Pathe Basel',
       location: 'Pathe Küchlin, Basel',
-      description:
-        'PR1SM is going to watch the world finals at Pathe in Basel. React to this event to join us there!',
+      description: 'PR1SM is going to watch the world finals at Pathe in Basel. React to this event to join us there!',
       href: 'https://discord.pr1sm.gg',
       start: '2021-11-06T11:30:00',
       end: '2021-11-06T18:00:00',
       organiser: 'PR1SM',
     },
   ],
-  images: [
-    {
-      src: '/images/a.JPG',
-      description: '',
-    },
-    {
-      src: '/images/b.JPG',
-      description: '',
-    },
-    {
-      src: '/images/c.JPG',
-      description: '',
-    },
-    {
-      src: '/images/d.JPG',
-      description: '',
-    },
-    {
-      src: '/images/e.JPG',
-      description: '',
-    },
-    {
-      src: '/images/f.JPG',
-      description: '',
-    },
-    {
-      src: '/images/g.JPG',
-      description: '',
-    },
-    {
-      src: '/images/h.JPG',
-      description: '',
-    },
-    {
-      src: '/images/i.JPG',
-      description: '',
-    },
-    {
-      src: '/images/j.JPG',
-      description: '',
-    },
-    {
-      src: '/images/k.JPG',
-      description: '',
-    },
-    {
-      src: '/images/l.JPG',
-      description: '',
-    },
-    {
-      src: '/images/m.JPG',
-      description: '',
-    },
-    {
-      src: '/images/n.JPG',
-      description: '',
-    },
-    {
-      src: '/images/o.JPG',
-      description: '',
-    },
-    {
-      src: '/images/p.JPG',
-      description: '',
-    },
-    {
-      src: '/images/q.JPG',
-      description: '',
-    },
-  ],
+  images: [a, b, c, d, d2, e, f, g, h, i, j, k, l, m, n, o, p, q],
 };
