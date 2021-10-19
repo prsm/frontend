@@ -50,7 +50,7 @@ export default {
       description: 'A Counter Strike - Global Offensive Wingman Turnier in der Manabar in Basel veranstaltet',
       href: 'https://challonge.com/tournaments/signup/pjhcLUcgkI',
       start: '2021-10-30T03:00:00',
-      end: '2021-11-30T03:00:00',
+      end: '2021-10-30T03:00:00',
       organiser: 'PR1SM',
     },
     {
@@ -73,7 +73,7 @@ export default {
       organiser: 'PR1SM',
     },
     {
-      title: 'League of Legend World Championship Final @Pathe Basel',
+      title: 'League of Legends World Championship Final @Pathe Basel',
       location: 'Pathe Küchlin, Basel',
       description: 'PR1SM is going to watch the world finals at Pathe in Basel. React to this event to join us there!',
       href: 'https://discord.pr1sm.gg',
