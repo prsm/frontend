@@ -8,9 +8,7 @@ import f from './public/images/f.jpeg';
 import g from './public/images/g.jpeg';
 import h from './public/images/h.jpeg';
 import i from './public/images/i.jpeg';
-import j from './public/images/j.jpeg';
 import k from './public/images/k.jpeg';
-import l from './public/images/l.jpeg';
 import m from './public/images/m.jpeg';
 import n from './public/images/n.jpeg';
 import o from './public/images/o.jpeg';
@@ -84,5 +82,5 @@ export default {
       organiser: 'PR1SM',
     },
   ],
-  images: [a, b, c, d, d2, e, f, g, h, i, j, k, l, m, n, o, p, q],
+  images: [a, b, c, d, d2, e, f, g, h, i, k, m, n, o, p, q],
 };
