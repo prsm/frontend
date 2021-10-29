@@ -45,6 +45,15 @@ export default {
   ],
   events: [
     {
+      title: 'PR1SM Paintball Event',
+      location: 'Paintballfarm Dietwil',
+      description: 'Ein Paintball Event mit dem Verein PR1SM und Freunden',
+      href: '',
+      start: '2021-11-14T17:00:00',
+      end: '2021-11-14T20:00:00',
+      organiser: 'PR1SM',
+    },
+    {
       title: 'Two of a Kind',
       location: 'Manabar Basel',
       description: 'A Counter Strike - Global Offensive Wingman Turnier in der Manabar in Basel veranstaltet',
