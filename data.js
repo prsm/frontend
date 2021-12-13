@@ -72,16 +72,6 @@ export default {
       organiser: 'Isle of Lan Community',
     },
     {
-      title: 'Halloween - Costume Contest',
-      location: 'Online',
-      description:
-        'Um der Tradition zu folgen, veranstalten wir Runde 2 des Halloween-Kostümwettbewerbs. Verkleidet euch in euer bestes und kreativstes Kostüm, schickt dieses bis zum 31.10.2021 in den Event Channel und die Jury wird die besten Kostüme küren.',
-      href: 'https://discord.pr1sm.gg',
-      start: '2022-04-08T17:00:00',
-      end: '2022-04-10T13:00:00',
-      organiser: 'PR1SM',
-    },
-    {
       title: 'League of Legends World Championship Final @Pathe Basel',
       location: 'Pathe Küchlin, Basel',
       description: 'PR1SM is going to watch the world finals at Pathe in Basel. React to this event to join us there!',
