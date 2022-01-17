@@ -1,4 +1,4 @@
-# PR1SM frontend
+# PR1SM Frontend
 
 ToDo: Update this file
 
