@@ -50,11 +50,11 @@ export const Slideshow = ({ images }) => {
         </AnimatePresence>
         <div className="z-10 flex flex-row items-center justify-between p-2">
           <ChevronLeftIcon
-            className="h-8 w-8 text-brand-white border rounded navbar-blurred border-custom"
+            className="h-8 w-8 text-brand-white border rounded navbar-blurred border-custom cursor-pointer"
             onClick={() => paginate(-1)}
           />
           <ChevronRightIcon
-            className="h-8 w-8 text-brand-white border rounded navbar-blurred border-custom"
+            className="h-8 w-8 text-brand-white border rounded navbar-blurred border-custom cursor-pointer"
             onClick={() => paginate(1)}
           />
         </div>

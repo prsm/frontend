@@ -2,6 +2,7 @@ import ContactBox from '../components/ContactBox';
 import CustomHead from '../components/CustomHead';
 import Embed from '../components/Embed';
 import Events from '../components/Events';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { Slideshow } from '../components/Slideshow';
 import TextSection from '../components/TextSection';
@@ -20,6 +21,7 @@ export default function Home() {
         <Events events={events} />
         <Slideshow images={images} />
       </main>
+      <Footer socials={socials} />
     </div>
   );
 }
